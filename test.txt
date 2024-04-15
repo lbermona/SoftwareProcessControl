@@ -1,0 +1,21 @@
+var div = document.createElement('div');
+div.setAttribute('class', 'form-inline');
+div.innerHTML = '<div><input type="checkbox" id="t1" checked> TEST 1: Un solo punto cae por fuera de los limites de control (UCL y LCL).</div><br>';
+document.getElementById('test1').appendChild(div);document.getElementById('test1').appendChild(div);
+
+var div = document.createElement('div');
+div.setAttribute('class', 'form-inline');
+div.innerHTML = '<div><input type="checkbox" id="t2" checked> TEST 2: Al menos dos de los tres valores consecutivos caen del mismo lado y más de dos unidades sigma lejos de la línea central.</div><br>';
+document.getElementById('test2').appendChild(div);document.getElementById('test2').appendChild(div);
+
+var div = document.createElement('div');
+div.setAttribute('class', 'form-inline');
+div.innerHTML = '<div><input type="checkbox" id="t3" checked> TEST 3: Al menos cuatro de los cinco valores consecutivos caen del mismo lado y más de una unidad sigma lejos de la línea central.</div><br>';
+document.getElementById('test3').appendChild(div);document.getElementById('test3').appendChild(div);
+
+
+
+var div = document.createElement('div');
+div.setAttribute('class', 'form-inline');
+div.innerHTML = '<div><input type="checkbox" id="t4" checked> TEST 4: Al menos ocho valores consecutivos caen del mismo lado de la línea central.</div><br>';
+document.getElementById('test4').appendChild(div);document.getElementById('test4').appendChild(div);

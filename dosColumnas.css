@@ -1,0 +1,15 @@
+td {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 10%;
+}
+
+td.first {
+    border-right: 5px solid #4BB495  ;
+}
+td.second {
+    border-right: 5px solid #4BB495  ;
+}
